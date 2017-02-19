@@ -7,11 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "UserYTJ.h"
 #define  BaseBlueColor RGBA(120, 150, 255, 1)
 
 @interface BaseViewController : UIViewController
-@property(nonatomic,strong)UserYTJ * user;
 -(void)showLoading;
 
 /**

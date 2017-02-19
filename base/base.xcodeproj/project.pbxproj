@@ -16,8 +16,6 @@
 		487A44A91E59339B006A55BB /* baseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 487A44A81E59339B006A55BB /* baseTests.m */; };
 		487A44B41E59339B006A55BB /* baseUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 487A44B31E59339B006A55BB /* baseUITests.m */; };
 		487A44D21E5933BB006A55BB /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 487A44C31E5933BB006A55BB /* BaseNavigationController.m */; };
-		487A44D31E5933BB006A55BB /* BaserTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 487A44C51E5933BB006A55BB /* BaserTabBarController.m */; };
-		487A44D41E5933BB006A55BB /* baseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 487A44C71E5933BB006A55BB /* baseTableViewController.m */; };
 		487A44D51E5933BB006A55BB /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 487A44C91E5933BB006A55BB /* BaseViewController.m */; };
 		487A44D61E5933BB006A55BB /* CommonButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 487A44CB1E5933BB006A55BB /* CommonButton.m */; };
 		487A44D71E5933BB006A55BB /* HTMLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 487A44CD1E5933BB006A55BB /* HTMLViewController.m */; };
@@ -61,10 +59,6 @@
 		487A44B51E59339B006A55BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		487A44C21E5933BB006A55BB /* BaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
 		487A44C31E5933BB006A55BB /* BaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationController.m; sourceTree = "<group>"; };
-		487A44C41E5933BB006A55BB /* BaserTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaserTabBarController.h; sourceTree = "<group>"; };
-		487A44C51E5933BB006A55BB /* BaserTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaserTabBarController.m; sourceTree = "<group>"; };
-		487A44C61E5933BB006A55BB /* baseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = baseTableViewController.h; sourceTree = "<group>"; };
-		487A44C71E5933BB006A55BB /* baseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = baseTableViewController.m; sourceTree = "<group>"; };
 		487A44C81E5933BB006A55BB /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
 		487A44C91E5933BB006A55BB /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
 		487A44CA1E5933BB006A55BB /* CommonButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonButton.h; sourceTree = "<group>"; };
@@ -170,10 +164,6 @@
 			children = (
 				487A44C21E5933BB006A55BB /* BaseNavigationController.h */,
 				487A44C31E5933BB006A55BB /* BaseNavigationController.m */,
-				487A44C41E5933BB006A55BB /* BaserTabBarController.h */,
-				487A44C51E5933BB006A55BB /* BaserTabBarController.m */,
-				487A44C61E5933BB006A55BB /* baseTableViewController.h */,
-				487A44C71E5933BB006A55BB /* baseTableViewController.m */,
 				487A44C81E5933BB006A55BB /* BaseViewController.h */,
 				487A44C91E5933BB006A55BB /* BaseViewController.m */,
 				487A44CA1E5933BB006A55BB /* CommonButton.h */,
@@ -322,8 +312,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				487A44D71E5933BB006A55BB /* HTMLViewController.m in Sources */,
-				487A44D41E5933BB006A55BB /* baseTableViewController.m in Sources */,
-				487A44D31E5933BB006A55BB /* BaserTabBarController.m in Sources */,
 				487A44D21E5933BB006A55BB /* BaseNavigationController.m in Sources */,
 				487A44961E59339B006A55BB /* ViewController.m in Sources */,
 				487A44931E59339B006A55BB /* AppDelegate.m in Sources */,
