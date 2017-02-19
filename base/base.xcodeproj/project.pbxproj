@@ -15,12 +15,6 @@
 		487A449E1E59339B006A55BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 487A449C1E59339B006A55BB /* LaunchScreen.storyboard */; };
 		487A44A91E59339B006A55BB /* baseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 487A44A81E59339B006A55BB /* baseTests.m */; };
 		487A44B41E59339B006A55BB /* baseUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 487A44B31E59339B006A55BB /* baseUITests.m */; };
-		487A44D21E5933BB006A55BB /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 487A44C31E5933BB006A55BB /* BaseNavigationController.m */; };
-		487A44D51E5933BB006A55BB /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 487A44C91E5933BB006A55BB /* BaseViewController.m */; };
-		487A44D61E5933BB006A55BB /* CommonButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 487A44CB1E5933BB006A55BB /* CommonButton.m */; };
-		487A44D71E5933BB006A55BB /* HTMLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 487A44CD1E5933BB006A55BB /* HTMLViewController.m */; };
-		487A44D81E5933BB006A55BB /* SureButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 487A44CF1E5933BB006A55BB /* SureButton.m */; };
-		487A44D91E5933BB006A55BB /* textBackView.m in Sources */ = {isa = PBXBuildFile; fileRef = 487A44D11E5933BB006A55BB /* textBackView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,18 +51,6 @@
 		487A44AF1E59339B006A55BB /* baseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = baseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		487A44B31E59339B006A55BB /* baseUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = baseUITests.m; sourceTree = "<group>"; };
 		487A44B51E59339B006A55BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		487A44C21E5933BB006A55BB /* BaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
-		487A44C31E5933BB006A55BB /* BaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationController.m; sourceTree = "<group>"; };
-		487A44C81E5933BB006A55BB /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
-		487A44C91E5933BB006A55BB /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
-		487A44CA1E5933BB006A55BB /* CommonButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonButton.h; sourceTree = "<group>"; };
-		487A44CB1E5933BB006A55BB /* CommonButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonButton.m; sourceTree = "<group>"; };
-		487A44CC1E5933BB006A55BB /* HTMLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMLViewController.h; sourceTree = "<group>"; };
-		487A44CD1E5933BB006A55BB /* HTMLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMLViewController.m; sourceTree = "<group>"; };
-		487A44CE1E5933BB006A55BB /* SureButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SureButton.h; sourceTree = "<group>"; };
-		487A44CF1E5933BB006A55BB /* SureButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SureButton.m; sourceTree = "<group>"; };
-		487A44D01E5933BB006A55BB /* textBackView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = textBackView.h; sourceTree = "<group>"; };
-		487A44D11E5933BB006A55BB /* textBackView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = textBackView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,7 +101,6 @@
 		487A448D1E59339B006A55BB /* base */ = {
 			isa = PBXGroup;
 			children = (
-				487A44C11E5933BB006A55BB /* CommonVC */,
 				487A44911E59339B006A55BB /* AppDelegate.h */,
 				487A44921E59339B006A55BB /* AppDelegate.m */,
 				487A44941E59339B006A55BB /* ViewController.h */,
@@ -157,25 +138,6 @@
 				487A44B51E59339B006A55BB /* Info.plist */,
 			);
 			path = baseUITests;
-			sourceTree = "<group>";
-		};
-		487A44C11E5933BB006A55BB /* CommonVC */ = {
-			isa = PBXGroup;
-			children = (
-				487A44C21E5933BB006A55BB /* BaseNavigationController.h */,
-				487A44C31E5933BB006A55BB /* BaseNavigationController.m */,
-				487A44C81E5933BB006A55BB /* BaseViewController.h */,
-				487A44C91E5933BB006A55BB /* BaseViewController.m */,
-				487A44CA1E5933BB006A55BB /* CommonButton.h */,
-				487A44CB1E5933BB006A55BB /* CommonButton.m */,
-				487A44CC1E5933BB006A55BB /* HTMLViewController.h */,
-				487A44CD1E5933BB006A55BB /* HTMLViewController.m */,
-				487A44CE1E5933BB006A55BB /* SureButton.h */,
-				487A44CF1E5933BB006A55BB /* SureButton.m */,
-				487A44D01E5933BB006A55BB /* textBackView.h */,
-				487A44D11E5933BB006A55BB /* textBackView.m */,
-			);
-			path = CommonVC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -311,14 +273,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				487A44D71E5933BB006A55BB /* HTMLViewController.m in Sources */,
-				487A44D21E5933BB006A55BB /* BaseNavigationController.m in Sources */,
 				487A44961E59339B006A55BB /* ViewController.m in Sources */,
 				487A44931E59339B006A55BB /* AppDelegate.m in Sources */,
-				487A44D51E5933BB006A55BB /* BaseViewController.m in Sources */,
-				487A44D61E5933BB006A55BB /* CommonButton.m in Sources */,
-				487A44D81E5933BB006A55BB /* SureButton.m in Sources */,
-				487A44D91E5933BB006A55BB /* textBackView.m in Sources */,
 				487A44901E59339B006A55BB /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

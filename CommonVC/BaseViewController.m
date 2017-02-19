@@ -7,22 +7,13 @@
 //
 
 #import "BaseViewController.h"
-#import "UserYTJ.h"
-#import "LoginViewController.h"
 //#import "WXApi.h"
 @interface BaseViewController ()<UIGestureRecognizerDelegate>
 
 @end
 
 @implementation BaseViewController
--(UserYTJ *)user
-{
-    
-    if (!_user) {
-        _user=[UserYTJ shareUser];
-    }
-    return _user;
-}
+
 -(void)showLoading{
 //    [HHPointHUD showWaitViewWithTitle:@"加載中..."];
 }
@@ -33,7 +24,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.automaticallyAdjustsScrollViewInsets = YES;
-    self.view.backgroundColor = BackGround_Color;
     
     
    [self.navigationController.navigationBar setTitleTextAttributes:@{NSFontAttributeName:[UIFont systemFontOfSize:19],NSForegroundColorAttributeName:[UIColor whiteColor]}];
@@ -53,7 +43,6 @@
         self.navigationItem.leftBarButtonItem = backItem;
     }
    
-    self.view.backgroundColor =BackGround_Color;
 //    self.navigationItem.hidesBackButton = YES;
 //    self.navigationItem.backBarButtonItem.title = @"";
     [[UIBarButtonItem appearance] setBackButtonTitlePositionAdjustment:UIOffsetMake(0, -60)
@@ -103,17 +92,17 @@
 }
 -(BOOL)isLogin
 {
-    if (![self.user.userId integerValue]) {
-        UIStoryboard * stroy = [UIStoryboard storyboardWithName:@"LoginViewController" bundle:MainBunlde];
-        LoginViewController * LVC = [stroy instantiateViewControllerWithIdentifier:@"LoginViewController"];
-        UINavigationController *nc = [[UINavigationController alloc] initWithRootViewController:LVC];
-        //注意: iOS8需要加
-        //    nc.navigationBar.barTintColor = Main_Color;
-        [nc.navigationBar setTitleTextAttributes:@{NSFontAttributeName:[UIFont systemFontOfSize:19],NSForegroundColorAttributeName:[UIColor whiteColor]}];
-        nc.navigationBar.tintColor = [UIColor whiteColor];
-        [self presentViewController:nc animated:YES completion:nil];
-        return NO;
-    }
+//    if (![self.user.userId integerValue]) {
+//        UIStoryboard * stroy = [UIStoryboard storyboardWithName:@"LoginViewController" bundle:MainBunlde];
+//        LoginViewController * LVC = [stroy instantiateViewControllerWithIdentifier:@"LoginViewController"];
+//        UINavigationController *nc = [[UINavigationController alloc] initWithRootViewController:LVC];
+//        //注意: iOS8需要加
+//        //    nc.navigationBar.barTintColor = Main_Color;
+//        [nc.navigationBar setTitleTextAttributes:@{NSFontAttributeName:[UIFont systemFontOfSize:19],NSForegroundColorAttributeName:[UIColor whiteColor]}];
+//        nc.navigationBar.tintColor = [UIColor whiteColor];
+//        [self presentViewController:nc animated:YES completion:nil];
+//        return NO;
+//    }
     return YES;
 }
 

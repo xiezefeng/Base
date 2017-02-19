@@ -39,7 +39,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.navigationBar.barTintColor = Main_Color;
     
     
 }
